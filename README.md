@@ -1,0 +1,2 @@
+# Ruby Instance Variable Modification Bug
+This example demonstrates an uncommon error in Ruby where assigning a value to a method that returns an instance variable does not actually modify the instance variable.  This is because the method acts as a getter, not a setter.  The solution involves creating an explicit setter method.
